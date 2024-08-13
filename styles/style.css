@@ -370,6 +370,95 @@ h1{
     background: rgba(0, 71, 255, 0.3);
 }
 
+/* footer section styles starts here */
+
+.footer-container{
+    border: 2px solid red;
+    width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content{
+    /* width: 1059px;
+    height: 200px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fitness{
+    padding-left: 200px;
+}
+
+.fitness h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.get-started{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.get-started h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.get-started li{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.resources{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.resources h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.resources li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+hr{
+    width: 1050px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#foot{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 /* Responsive styles starts here */
 
