@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+/* 
 *{
     background: black;
-}
+}   */
 
 .banner-section{
     width: 1440px;
@@ -396,7 +396,49 @@ h1{
 
 /* bmi cart styles starts here */
 
+.bmi-calculator{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1440px;
+    height: 350px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background: rgb(34, 34, 34); */
+}
 
+.bmi-chart{
+    padding-left: 120px;
+}
+
+.bmi-chart h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-chart > table, thead{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.bmi-chart > table, tbody{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-chart > table, thead, tbody {
+    border: 2px solid rgba(34, 34, 34, 0.9);
+    border-collapse: collapse;
+    text-align: center;
+  }
 
 /* footer section styles starts here */
 
