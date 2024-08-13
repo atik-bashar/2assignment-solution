@@ -370,6 +370,34 @@ h1{
     background: rgba(0, 71, 255, 0.3);
 }
 
+/* BMI Calculator styles starts here */
+
+.bmi-section-container{
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    margin-top: 80px;
+    border: 2px solid aqua;
+    
+}
+.bmi-section h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* bmi cart styles starts here */
+
+
+
 /* footer section styles starts here */
 
 .footer-container{
