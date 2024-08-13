@@ -143,6 +143,10 @@ h1{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+    /* margin-top: -100px;
+    margin-right: -200px; */
+    z-index: 1;
+    /* margin-left: -200px; */
 }
 
 .point1 h3{
@@ -303,20 +307,85 @@ h1{
     background: none;
 }
 
+/* training section styles starts here  */
+
+.section-training{
+    width: 1060px;
+    height: 580px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border: 2px solid aquamarine;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.section-training-text{
+    /* margin: 0 auto; */
+    /* margin-top: -10px; */
+    align-items: flex-start;
+}
+.section-training-text h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-training-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-training> .section-training-image>.images{
+    display: grid;
+    margin: 0 auto;
+    /* justify-items: flex-start; */
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image1{
+    background: rgba(6, 255, 210, 0.5);
+}
+
+.image2{
+    background: rgba(255, 0, 0, 0.3);
+}
+
+.image3{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image4{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image5{
+    background: rgba(66, 255, 0, 0.3);
+}
+
+.image6{
+    background: rgba(0, 71, 255, 0.3);
+}
+
 
 /* Responsive styles starts here */
 
 @media screen and (max-width: 576px) {
     .banner-section-text{
         flex-direction: row;
+        height: 700px;
     }
     
     .habit-section-image{
         grid-template-columns: repeat(1, 1fr);
+        /* height: 800px; */
         /* margin-bottom: 50px; */
     }
     .section-run{
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+        /* align-items: center; */
     }
 }
