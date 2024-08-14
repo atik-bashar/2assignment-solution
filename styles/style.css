@@ -9,7 +9,6 @@
     height: 720px;
     margin: 0 auto;
     margin-bottom: 80px;
-    border: 2px solid red;
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -82,11 +81,6 @@ h1{
     font-weight: 900;
 }
 
-/* .banner-section-text1 h2 i{
-    font-family: "Grey Qo", cursive;
-    font-weight: 400;
-} */
-
 #shape{
     font-size: 70px;
     font-weight: 100;
@@ -143,10 +137,7 @@ h1{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    /* margin-top: -100px;
-    margin-right: -200px; */
     z-index: 1;
-    /* margin-left: -200px; */
 }
 
 .point1 h3{
@@ -210,7 +201,6 @@ h1{
     width: 1045px;
     height: 450px;
     margin: 0 auto;
-    border: 2px solid green;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -264,7 +254,6 @@ h1{
     margin: 0 auto;
     width: 1060px;
     height: 370px;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 18px;
@@ -314,14 +303,11 @@ h1{
     height: 580px;
     margin: 0 auto;
     margin-bottom: 120px;
-    border: 2px solid aquamarine;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
 }
 
 .section-training-text{
-    /* margin: 0 auto; */
-    /* margin-top: -10px; */
     align-items: flex-start;
 }
 .section-training-text h2{
@@ -341,7 +327,6 @@ h1{
 .section-training> .section-training-image>.images{
     display: grid;
     margin: 0 auto;
-    /* justify-items: flex-start; */
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -377,9 +362,8 @@ h1{
     width: 600px;
     height: 200px;
     margin-top: 80px;
-    border: 2px solid aqua;
-    
 }
+
 .bmi-section h2{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -401,10 +385,8 @@ h1{
     margin-top: 80px;
     width: 1440px;
     height: 350px;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* background: rgb(34, 34, 34); */
 }
 
 .bmi-chart{
@@ -440,6 +422,10 @@ h1{
     text-align: center;
   }
 
+  .bmi-calculate{
+    padding-top: 10px;
+  }
+
   .bmi-calculate h2{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -454,16 +440,83 @@ h1{
     font-weight: 400;
   }
 
+  .form1{
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .wet{
+    width: 282.5px;
+    text-align: center;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  #sel{
+    width: 577px;
+    height: 48px;
+  }
+
+  #btn5{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+  }
+
+  #cal{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background: none;
+  }
+
   /* Team member styles starts here */
 
   .team-section{
-    
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1050px;
+    height: 750px;
+    align-items: center;
+  }
+
+  .team-section-text{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .team-section-text h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .team-section-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .team-section-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-section-image img{
+    width: 340px;
+    height: 270px;
+    border-radius: 20px;
   }
 
 /* footer section styles starts here */
 
 .footer-container{
-    border: 2px solid red;
     width: 1440px;
     height: 300px;
     margin: 0 auto;
@@ -472,8 +525,6 @@ h1{
 }
 
 .footer-content{
-    /* width: 1059px;
-    height: 200px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
