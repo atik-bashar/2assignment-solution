@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-/* 
+
 *{
     background: black;
-}   */
+} 
 
 .banner-section{
     width: 1440px;
@@ -421,7 +421,7 @@ h1{
 .bmi-chart > table, thead{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     padding: 20px;
 }
@@ -430,7 +430,7 @@ h1{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     padding: 20px;
-    font-size: 14px;
+    font-size: 9px;
     font-weight: 400;
 }
 
@@ -438,6 +438,26 @@ h1{
     border: 2px solid rgba(34, 34, 34, 0.9);
     border-collapse: collapse;
     text-align: center;
+  }
+
+  .bmi-calculate h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .bmi-calculate p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* Team member styles starts here */
+
+  .team-section{
+    
   }
 
 /* footer section styles starts here */
@@ -533,9 +553,28 @@ hr{
 /* Responsive styles starts here */
 
 @media screen and (max-width: 576px) {
+    /* nav li{
+        position: absolute;
+        top: 70px;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        overflow: hidden;
+    }
+
+    nav ul li{
+        padding: 10px;
+    }
+    .menu-icon{
+        display: block;
+    } */
+    .banner-section{
+        width: 410px;
+        height: 1020px;
+    }
     .banner-section-text{
-        flex-direction: row;
-        height: 700px;
+        flex-direction: column;
+        height: 550px;
     }
     
     .habit-section-image{
